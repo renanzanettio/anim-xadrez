@@ -1,0 +1,10 @@
+.table{
+    width: 550px;
+    height: 550px;
+}
+
+.div-table{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
