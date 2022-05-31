@@ -8,3 +8,73 @@
     left: 500px;
     top: 50px;
 }
+
+.imagem-cavalo{
+    max-width: 70px;
+    max-height: auto;
+}
+
+#div-imagem-cavalo{
+    position: absolute;
+    left: 570px;
+    top: 51px;
+    animation: div-cavalo 15s infinite;
+}
+
+
+@keyframes div-cavalo{
+    0%{left: 570px; top: 51px;}
+    4.55%{left: 570px; top: 188px;}
+    9.09%{left: 638px; top: 188px;}
+    13.64%{left: 638px; top: 188px;}
+    18.18%{left: 638px; top: 325px;}
+    22.73%{left: 705px; top: 325px;}
+    27.27%{left: 705px; top: 325px;}
+    31.82%{left: 705px; top: 461px;}
+    36.36%{left: 774px; top: 461px;}
+    40.91%{left: 774px; top: 461px;}
+    45.45%{left: 774px; top: 530px;}
+	
+    50%{left: 910px; top: 530px;}
+    54.55%{left: 910px; top: 530px;}
+
+    59.09%{left: 774px; top: 530px;}
+    63.64%{left: 774px; top: 461px;}
+    68.18%{left: 774px; top: 461px;}
+    72.73%{left: 705px; top: 461px;}
+    77.27%{left: 705px; top: 325px;}
+    81.82%{left: 705px; top: 325px;}
+    86.36%{left: 638px; top: 325px;}
+    90.91%{left: 638px; top: 188px;}
+    95.45%{left: 570px; top: 188px;}
+    100%{left: 570px; top: 51px;}
+}
+
+
+
+/*
+@keyframes div-cavalo{
+    5%{left: 570px; top: 51px;}
+    10%{left: 570px; top: 51px;}
+    15%{left: 570px; top: 188px;}
+    20%{left: 638px; top: 188px;}
+    25%{left: 638px; top: 325px;}
+    30%{left: 705px; top: 325px;}
+    35%{left: 705px; top: 461px;}
+    40%{left: 774px; top: 461px;}
+    45%{left: 774px; top: 530px;}
+    50%{left: 910px; top: 530px;}
+
+    55%{left: 910px; top: 530px;}
+    60%{left: 774px; top: 530px;}
+    65%{left: 774px; top: 461px;}
+    70%{left: 705px; top: 461px;}
+    75%{left: 705px; top: 325px;}
+    80%{left: 638px; top: 325px;}
+    85%{left: 638px; top: 188px;}
+    90%{left: 570px; top: 188px;}
+    95%{left: 570px; top: 51px;}
+    100%{left: 570px; top: 51px;}
+
+}
+*/
